@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="mate2.jpg">
+    <table align="center" border="0" bgcolor="black">
+        <tr >
+            <td >
+
+                <a href="index.html">
+                    <img src="portada.png" alt="casita" width="200" height="180" >
+                </a>
+            </td>
+
+             <td>
+                <a href="inicio.html">
+                    <img src="casita.jpg" alt="casita" width="200" height="180" >
+                </a>
+            </td>
+
+            <td>
+                <a href="granmat.html">
+                    <img src="gm.png" alt = "Newton1" width="200" height="180" >
+                </a>
+            </td>
+            <td>
+                <a href="aprende.html">
+                    <img src="apren.png" alt = "aprende" width="200" height="180" >
+                </a>
+            </td>
+            <td>
+                <a href="contacto.html">
+                    <img src="cont.png" alt = "aprende" width="200" height="180" >
+                </a>
+            </td>
+           
+        </tr>
+
+    </table>
+
+    <table width="60%" bgcolor="white" align="center">
+        <tr>
+            <td colspan="2">
+                <p align="center"> <b> <font size="+4"    >CURIOSIDADES</font>  </b> </p> 
+                <p align="center"> <b> <font size="+3"  >Los Puentes de Konigsberg</font>  </b> </p> 
+                
+            </td>
+        </tr>
+        
+    
+
+        <tr height="5">
+            <td>
+                <p >  <font size="+1"  >La ciudad de Kaliningrado, antiguamente llamada Königsberg, es un bonito lugar situado en la desembocadura del río Pregolya, en la antigua Prusia Oriental. Este río atravesaba la ciudad, dividiendo la zona en varias partes. Para no perder la comunicación, ésta estaba llena de un sistema de puentes conectores.En total, había siete grandes puentes en Kaliningrado: el puente del herrero, el puente conector, el puente verde, el puente del mercado, el puente de madera, el puente alto y el puente de la miel.Los ciudadanos se sentían muy orgullosos de esta gran red de comunicación, y entre ellos surgió un pequeño juego para entretenerse en los momentos de aburrimiento. Solo consistía en una sola pregunta: </font>   </p>
+                <p align="center"> <b> <font size="+1"  >"¿Se pueden atravesar todos los puentes pasando sólo una vez por cada puente?"</font>  </b> </p> 
+            </td>
+            <td>
+                <img src="curiosidades/puentes.png"
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                
+                <p align="center"> <b> <font size="+3"    >Solución</font>  </b> </p>
+                <p >  <font size="+1"  >Bien, seguramente si lo pensado, has decidido que es algo imposible, es necesario cruzar algún puente más de una vez. A base de repetir y repetir acabamos dándonos cuenta de que es un problema irresoluble.Sin embargo, los matemáticos siempre son mucho más elegantes a la hora de expresarse y hacer sus demostraciones, el método de «repetir y repetir» era algo demasiado informal.Por aquella época, estaba en la ciudad un eminente matemático trabajando en la Academia Prusiana de las Ciencias. Como no podía ser de otra forma, enseguida se interesó por este acertijo y se propuso dar una solución mucho más completa y demostrativa de porqué es imposible cruzar todos los puentes sólo una vez. Este personaje se llamaba Leonhard Euler, posiblemente el mayor matemático de la historia.</font>   </p> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p align="center"> <b> <font size="+3"    >El Trabajo de Euler</font>  </b> </p> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p<  <font size="+1"  >En primer lugar, Euler simplificó el mapa del territorio a simplemente unas cuantas líneas y puntos. Eliminó todo lo sobrante:</font>  </b> </p> 
+                <p<  <font size="+1"  >Como podemos ver, los distintos territorios en los que los puentes dividieron la ciudad se convirtieron en puntos, es decir, en «vértices»; y los puentes se convirtieron en líneas, lo que llamamos «aristas». También determina que hay un punto de «inicio» y un punto de «salida».Euler consiguió, a partir de este sencilló esquema, encontrar la solución de una forma mucho más elegante que la que aplicamos en un principio.Para poder recorrer un sistema de este tipo, los vértices «intermedios» deben tener un número par de aristas. Es decir, deben tener una vía para entrar y una vía para salir. Sólo los puntos de inicio y salida pueden tener un número impar de aristas, porque, evidentemente, nunca «entramos» al punto de inicio y nunca «salimos» del punto de llegada.Es algo muy sencillo, vamos a crear mentalmente un sistema en el que hay un territorio divido en dos partes por un puente. ¿Cómo lo resolvemos? Tienes que salir una vez del punto de inicio (nº impar), entrar en un punto intermedio y salir de él (nº par) y acabar entrando en el punto de salida (nº impar).¿Y dónde reside la genialidad de Euler?</font>  < </p> 
+            </td>
+            <td>
+                <img src="curiosidades/grafo.jpg">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                
+                <p align="center"> <b> <font size="+3"    >La Generalización de la Solución</font>  </b> </p>
+                <p >  <font size="+1"  >En que este método se aplica a cualquier problema de este tipo. Con calcular las aristas que tienen los puntos intermedios y extremos podemos saber a la primera si el problema es irresoluble o no. En el caso de los puentes de Königsberg, los vértices intermedios tienen un número impar de aristas, por lo que es absolutamente imposible realizar la hazaña del ejercicio planteado. También cabe destacar un último punto respecto al número de aristas que contienen los vértices de salida y llegada en un recorrido que sí se pueda completar (es decir, todo lo contrario a los puentes de Königsberg). Teniendo en cuenta que los vórtices intermedios tienen un número par de aristas, los vórtices de inicio y salida pueden tener, según la situación, un número par o impar de aristas: </font>   </p> 
+                <p<  <font size="+1"  > – Si el punto de llegada y salida es el mismo, obligatoriamente debe tener un número par de aristas (uno para salir y otro para regresar). Esto se conoce como «ciclo euleriano». </font>   </p> 
+                <p<  <font size="+1"  > – Si por el contrario el punto de salida y el de llegada son diferentes, deben tener obligatoriamente un número impar de aristas. Esto es lo que conocemos como «camino euleriano». </font>   </p> 
+                <p>  <font size="+1"  > Estos estudios realizados por Euler fueron el detonante de la teoría de grafos, convirtiendo una simple discusión pueblerina en toda una disciplina científica </font>   </p>
+
+                
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
